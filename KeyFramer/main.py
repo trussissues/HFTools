@@ -24,6 +24,7 @@ def format_time(ms: int) -> str:
     millis = ms % 1000
     return f"{hours:02}:{minutes:02}:{seconds:02}.{millis:03}"  # hh:mm:ss.mmm
 
+
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
